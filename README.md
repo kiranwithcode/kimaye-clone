@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Kimaye – Project Work
+Unit-4 Construct Week Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description
+From being the largest exporter of pomegranates and bananas to stepping into the domestic retail market, we've come a long way by adding more colours to your plate.
+We work with the farmers from the time they plant the seed. Our fruits meet international safety standards at every stage of growing, sourcing, packaging, and delivery. We've worked with farmers and innovated farming and delivery techniques for better shelf life and traceability while meeting the most stringent safety norms.
 
-## Available Scripts
+Our accolades are only a part of our journey. It's our mantra — safest fruits, always — that we wear as a badge of honour.
 
-In the project directory, you can run:
+## Deployment
+To deploy this project run
+---------
 
-### `npm start`
+About this project: This is a Indivisual project, built by us in the Construct Week - Unit 4 at Masai School.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•	KIRAN KAMBLE
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stacks used
+HTML – 0.7%
+>
+CSS – 28.7%
+>
+JAVASCRIPT-70.6%
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Some Glimpse and Screenshots of our Website:
+### Home Page:-
+This is the main landing page of our website. Here clicking on any option on the Navbar will redirect the user to the respective Product Page. It is fully functional and responsive.
 
-### `npm run build`
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/LandingPage.PNG?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Home Page. Sign In Form and Signup form Here we have a sign-in window that slides from the top when the user clicks on the sign-in button near the Trips button. Here we integrate User authentication to check whether user email and password match with details existing in the database.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### AllFruit Page: –
+By clicking on Navigation menu toggle button you will redirected to the AllFruit page where you will get all the product of our . Also the user can filter the Fruits by their Popularity, Budget and Class. select your favorite fruits and add put cart
 
-### `npm run eject`
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/AllFruit.PNG?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Cart Page: -
+Cart Page the fruits you selected will be inside the cart you can inc and dec qty of the products within the cart and also delete 
+After all, click on the check out button.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/Cart.PNG?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Information Page: –
+This is a information page, inside it you have to enter your address which should be correct for your delivery address.
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/Information.PNG?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Shipping Page: –
+This is shipping page, whatever you address is inside it, you can check the quantity, check the product again and change it.
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/Shopping.PNG?raw=true)
 
-## Learn More
+### Rozarpay Page: - 
+Rozarpay by default integrate inside our payment method so you will redirct to rozarpay payment page.
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/rozarpay.PNG?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Payment Success: – 
+After payment is successful, show your order ID and amount to you.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![name-of-you-image](https://github.com/kiranwithcode/kimaye-clone/blob/main/src/Imgs/SuccessPayment.PNG?raw=true)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
