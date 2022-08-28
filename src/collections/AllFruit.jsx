@@ -70,7 +70,7 @@ const AllFruit = () => {
                 alt=""
                 objectFit="cover"
                 br={4}
-                style={{ borderRadius: '20px' }}
+                style={{ borderRadius: '18px' }}
                 key={item.id}
               />
               <SimpleGrid className={style.hidebtn} mt="-30px">
