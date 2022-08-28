@@ -1,7 +1,13 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import navcss from "./navbar.module.css";
+import './navbargloble.css'
 
 const Category = () => {
+    const [click, setClick] = useState(false);
+    const handleClick = () => {
+      setClick(!click);
+    };
   let cat = [
     {
       id: 1,
@@ -9,7 +15,7 @@ const Category = () => {
       path: "/",
       sub: {
         a: "All Fruits",
-        p1: "/allfruits",
+        p1: "/collections/all-fruits",
         b: "Fresh Fruits",
         p2: "/freshcuts",
         c: "Fruits Combos",
@@ -49,14 +55,14 @@ const Category = () => {
   ];
 
   return (
-    <div className={navcss.upper_box}>
+    <div className="upper_box">
       {cat.map((el) => (
         <div className="main_menu" key={el.id}>
           <Link  className="menu-btn" to={el.path}>
             {el.title}
           </Link>
           <div className="xyz">
-                <ul>
+                <ul className={click? 'nav-menu active' : 'nav-menu'}>
                   <li>
                     <Link className="p" to={el.sub.p1}>
                       {el.sub.a}

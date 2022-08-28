@@ -1,12 +1,16 @@
-.container-slider {
+.container_jazz {
   max-width: 100%;
-  height: 630px;
+  height: 550px;
   /* margin: auto 0; */
-  margin-top: -30px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid black; */
 }
+.container_jazz .simg{
+  max-width: 100%;
+} 
+
 @media screen and (max-width: 700px){
   /* .container-slider {
     margin: 100px 10px 0;
@@ -15,25 +19,60 @@
 
   } */
 }
-.slide {
+.jazz {
+  display: flex;
+  gap: 2rem;
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
+  padding: 2rem 6rem;
 }
-.slide img {
+
+/* .jazz .title{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+.jazz .title h1{
+  font-size: 5rem;
+}
+.jazz .title h3{
+  font-size: 2rem;
+} */
+.jazz .image {
+  flex: 1;
+  width: 70%;
+  height: 90%;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  position: relative;
+}
+.img_head{
+  position: absolute;
+  top: 80%;
+  margin-left: 20px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #f1f1f1;
+}
+.jazz .image img{
   width: 100%;
   height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
-.active-anim {
+
+.active_anim {
   opacity: 1;
 }
 
-.btn-slide {
-  width: 60px;
-  height: 60px;
+.btn_slide {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #f1f1f1;
   border: 1px solid rgba(34, 34, 34, 0.287);
@@ -44,7 +83,7 @@
   cursor: pointer;
 }
 
-.btn-slide img {
+.btn_slide img {
   width: 25px;
   height: 25px;
   pointer-events: none;
@@ -59,12 +98,13 @@
   right: 20px;
   transform: translateY(-60%);
 }
-.container-dots {
+.container_dots {
   position: absolute;
   bottom: 1px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  margin-bottom: 10px;
 }
 .dot {
   width: 15px;

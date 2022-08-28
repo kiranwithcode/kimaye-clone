@@ -5,7 +5,7 @@ import "./navbargloble.css";
 
 const KimayeLogo = () => {
   return (
-    <div className={navcss.kimayelogo}>
+    <div className="kimayelogo">
       <form>
         <li className="nav-item logo">
           <Link className="nav-link" to="/">

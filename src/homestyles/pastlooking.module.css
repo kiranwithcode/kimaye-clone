@@ -1,0 +1,65 @@
+.pastContainer{
+    margin: auto;
+    background-color:rgb(253, 243, 245);
+    height:500px;
+    margin-top: -20px; 
+    margin-bottom: 100px;
+    padding: 2rem; 
+}
+.griddiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin:auto;
+    width:90%;
+    height: 70%;
+    gap:20px;
+    /* border: 1px solid green; */
+}
+.griddiv>div{
+    /* border: 1px solid green; */
+    border-radius: 20px;
+
+}
+.pastimg{
+  width:100%;
+  height: 100%;
+  border-radius: 20px;
+
+}
+.pastimg:hover{
+filter: brightness(45%);
+  -webkit-filter: brightness(45%);
+  -moz-filter: brightness(45%);
+  -o-filter: brightness(45%);
+  -ms-filter: brightness(45%);
+  width: 100%;
+ 
+
+}
+.heading{
+    height: 10%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.heading h1{
+    text-align: center;
+    color: #222;
+    font-family: Bitterbrush;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1.18;
+    text-transform: uppercase;
+}
+.heading h3{
+    text-align: center;
+    color: #222;
+    font-family: PT Sans,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1.3;
+}
+.maindiv{
+text-align: center;
+}
